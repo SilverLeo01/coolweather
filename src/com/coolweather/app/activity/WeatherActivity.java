@@ -12,13 +12,12 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class WeatherActivity extends Activity implements OnClickListener {
+public class WeatherActivity extends Activity  {
 	
 	private LinearLayout weatherInfoLayout;
 	/**
